@@ -1,0 +1,99 @@
+body {
+    font-family: 'Patrick Hand', cursive;
+    background: linear-gradient(to bottom, #fdf6e3, #fffbe7);
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 650px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    border: 2px dashed #ccc;
+  }
+  
+  h1 {
+    text-align: center;
+    color: #2d6a4f;
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  input, select, button {
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 8px;
+    border: 2px solid #74c69d;
+    font-family: 'Patrick Hand', cursive;
+  }
+  
+  button {
+    background-color: #40916c;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+  }
+  
+  button:hover {
+    background-color: #2d6a4f;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 25px;
+  }
+  
+  li {
+    background: #d8f3dc;
+    margin-bottom: 12px;
+    padding: 15px;
+    border-left: 6px solid #52b788;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  li span {
+    font-size: 18px;
+  }
+  
+  li.concluida {
+    background-color: #b7e4c7;
+    text-decoration: line-through;
+    color: #555;
+    border-left-color: #2d6a4f;
+  }
+  
+  button.concluir {
+    background-color: #0077b6;
+    font-size: 14px;
+    padding: 8px 12px;
+    border-radius: 6px;
+  }
+  
+  button.concluir:hover {
+    background-color: #023e8a;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 15px;
+    font-size: 16px;
+    color: #555;
+    background-color: #f0f0f0;
+    margin-top: 30px;
+  }
+  

@@ -1,11 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gerenciador Escolar de Tarefas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    
+  <div class="container">
+    <h1>📚 Minhas Tarefas Escolares</h1>
+    <form id="form-tarefa">
+      <input type="text" id="titulo" placeholder="Título da tarefa" required />
+      <input type="date" id="data" required />
+      <select id="materia" required>
+        <option value="">Selecione a matéria</option>
+        <option value="Matemática">📐 Matemática</option>
+        <option value="Português">📖 Português</option>
+        <option value="História">🏛️ História</option>
+        <option value="Geografia">🌍 Geografia</option>
+        <option value="Ciências">🔬 Ciências</option>
+        <option value="Inglês">🗣️ Inglês</option>
+        <option value="Artes">🎨 Artes</option>
+      </select>
+      <button type="submit">➕ Adicionar</button>
+    </form>
+
+    <ul id="lista-tarefas"></ul>
+  </div>
+
+  <footer>
+    <p>Projeto Escolar 🏫</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 </html>
